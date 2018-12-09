@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules"
+  ],
+  "jsRules": false,
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-var-keyword": true,
+    "no-console": false,
+    "prefer-const": true,
+    "no-constant-condition": true,
+    "trailing-comma":false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}

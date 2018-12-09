@@ -1,0 +1,8 @@
+{
+  "linters": {
+    "*.ts": "lint",
+  },
+  "ignore": [
+    "**/typings/**/*.d.ts"
+  ]
+}

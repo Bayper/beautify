@@ -1,0 +1,32 @@
+{
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "rootDir": "src",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    // Exclude the API goldens in order to not slow-down IDE's using this tsconfig file
+    "lib/**/*.d.ts",
+    "node_modules"
+  ],
+  "files": [
+    "./src/index.ts"
+  ]
+}
